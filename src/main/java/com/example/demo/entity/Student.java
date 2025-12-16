@@ -1,5 +1,8 @@
 package com.example.demo.entity;
 
+import jakarta.persistence.*;
+
+@En
 public class Student(){
 
     private int id;
@@ -41,4 +44,5 @@ public class Student(){
         this.email=email;
         this.cgpa=cgpa;
     }
+
 }
