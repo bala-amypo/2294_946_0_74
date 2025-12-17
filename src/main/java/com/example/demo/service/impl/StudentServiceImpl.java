@@ -12,5 +12,13 @@ public class StudentService implements StudentService{
     @Autowired
     StudentRepository repo;
 
-    @
+    @Override
+    public Student createData(Student stu){
+        return repo.save(stu);
+    }
+
+    @Override
+    public List<Student> fetchRecord(){
+        return repo.findall();
+    }
 }
