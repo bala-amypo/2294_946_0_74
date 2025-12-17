@@ -33,7 +33,7 @@ public class StudentController {
         stu.setId(id);
         ser.createData(stu);
 
-        return ""
+        return "Data Updated Successfully"
     }
 
 }
