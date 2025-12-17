@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.example.demo.service.DataFetchService;
 
-@RestController                    //contoller layer annotation to tell that the demo has the controller
+@RestController                    
 public class DataFetchController {
 
     @Autowired
